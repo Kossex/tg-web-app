@@ -3,7 +3,7 @@ import {useTelegram} from "./hooks/useTelegram";
 
 
 function App() {
- const {onToggleButton,Tg} = useTelegram()
+ const {onToggleButton} = useTelegram()
   return (
     <div className="App">
       <button onClick={onToggleButton}></button>
