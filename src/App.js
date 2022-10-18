@@ -1,11 +1,12 @@
 import './App.css';
+import {useTelegram} from "./hooks/useTelegram";
+
 
 function App() {
-
+ const {onToggleButton,Tg} = useTelegram()
   return (
     <div className="App">
-    Its working
-   <button>Close</button>
+      <button onClick={onToggleButton}></button>
     </div>
   );
 }
