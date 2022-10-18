@@ -6,7 +6,7 @@ function App() {
  const {onToggleButton} = useTelegram()
   return (
     <div className="App">
-      <button onClick={onToggleButton}></button>
+      <button onClick={onToggleButton}>Toggle</button>
     </div>
   );
 }
